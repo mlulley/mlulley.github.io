@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <style>
+        #header{
+            color:white;
+            text-align:center;
+            padding:5px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow:hidden;
+            background-color: #663300;
+        }
+        li {
+            float: left;
+            border-right:1px solid white;
+        }
+        li a, .dropbtn {
+            display: inline-block;
+            position: relative;
+            color: white;
+            text-align: right;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li:last-child{
+            border-right: none;
+            border-left:1px solid white;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align:center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active) {
+            background-color: #cc9966;
+        }
+        
+        .active{
+            background-color: #663300;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #663300;
+            min-width: 100px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+        .dropdown-content a {
+            color: white;
+            text-align: left;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {background-color: white}
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown:hover .dropbtn {
+            background-color: #cc9966;
+        }
+   </style>
+   <link href="icecream.css" rel="stylesheet" type="text/css" 
+  </head>
+  
+  <img width="191px" src="images/icecream2.jpg"/><img width="191px" src="images/icecream2.jpg"/><img width="191px" src="images/icecream2.jpg"/><img width="191px" src="images/icecream2.jpg"/><img width="191px" src="images/icecream2.jpg"/><img width="191px" src="images/icecream2.jpg"/><img width="191px" src="images/icecream2.jpg"/><img width="191px" src="images/icecream2.jpg"/><img width="191px" src="images/icecream2.jpg"/><img width="191px" src="images/icecream2.jpg"/>
+
+  <body>
+    <ul>
+        <li><a href="ice.html">Home</a></li>
+        <li><a href="ice_news.html">News</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Contact Us</a>
+                <div class="dropdown-content">
+                    <a href="ice_contacts_email.html">Email</a>
+                    <a href="ice_contacts_phone.html">Phone</a>
+                    <a href="ice_contacts_address.html">Address</a>
+                </div>
+        </li>
+        <li style = "float:right"><a href="ice_about.html">About</a></li>
+    </ul>
+    
+    <div id="header">
+        <img width="250px" src="images/contacts.jpg" alt="Picture of Newspaper"/>
+    </div>
+    <h1>Our email address: comp.sci.princ@strack.com</h1>
+  </body>
+</html>
